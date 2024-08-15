@@ -94,7 +94,7 @@ class _BottomNavStyle3 extends StatelessWidget {
                 width: navBarEssentials.selectedIndex == 0
                     ? MediaQuery.of(context).size.width * 0.0
                     : itemWidth * navBarEssentials.selectedIndex,
-                height: 4,
+                height: 2,
               ),
               Flexible(
                 child: AnimatedContainer(
